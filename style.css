@@ -17,3 +17,15 @@ margin:2px;
 padding:10px;
 color:(red);
 }
+.chamada{
+background:rgb(242, 255, 0);
+padding:80px;
+display: flex;
+justify-content: center;
+}
+.chamada-texto{
+margin-right:8%;
+}
+ing{
+    height:200px;
+}
