@@ -29,3 +29,24 @@ margin-right:8%;
 img{
     height:200px;
 }
+
+.categoria-video {
+display: flex;
+overflow-x: auto; /* permite rolagem horizontal */
+gap: 15px; /* espaço entre vídeos */
+padding: 20px;
+scroll-behavior: smooth; /* rolagem suave */
+}
+
+.categoria-video::-webkit-scrollbar {
+height: 8px;
+}
+
+.categoria-video::-webkit-scrollbar-thumb {
+background-color: rgb(0, 0, 0);
+border-radius: 4px;
+}
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+}
